@@ -2,6 +2,7 @@ import Counter from './components/Counter';
 import User from './components/User';
 
 import TimerPadre from './components/TimerPadre';
+import ContadorReducer from './components/ContadorReducer';
 
 
 function App() {
@@ -12,13 +13,17 @@ function App() {
 
       <Counter />
 
-      <hr/>
-
       <User/>
 
-      <h2>useEffect - useRef</h2>
       <hr/>
+
+      <h2>useEffect - useRef</h2>
       <TimerPadre />
+
+      <hr/>
+
+      <h2>useReduder</h2>
+      <ContadorReducer/>
 
     </>
   );
