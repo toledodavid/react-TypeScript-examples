@@ -3,6 +3,8 @@ import User from './components/User';
 
 import TimerPadre from './components/TimerPadre';
 import ContadorReducer from './components/ContadorReducer';
+import Formulario from './components/Formulario';
+import Formulario2 from './components/Formulario2';
 
 
 function App() {
@@ -24,6 +26,13 @@ function App() {
 
       <h2>useReduder</h2>
       <ContadorReducer/>
+
+      <hr/>
+
+      <h2>customHooks</h2>
+      <Formulario />
+      <hr/>
+      <Formulario2 />
 
     </>
   );
